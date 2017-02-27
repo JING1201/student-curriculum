@@ -1,5 +1,5 @@
-td{
-    width:33%;
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .cards{
@@ -10,7 +10,7 @@ td{
     margin-top:15px;
     display:block;
     width:100%;
-    padding:13px;
+    padding:5px;
     border-radius:8px;
     
     text-align:center;
@@ -42,6 +42,3 @@ td{
     border:none;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
