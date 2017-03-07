@@ -1,5 +1,15 @@
-body{
-    font-family: 'Roboto', sans-serif;
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#myCanvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .cards{
