@@ -41,7 +41,17 @@ body {
     width:23.5%;
     text-align:center;
     background-color:#6D7381;
+    
     color:white;
+    cursor: pointer;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 9px #999;
 }
 
 .container-fluid{
