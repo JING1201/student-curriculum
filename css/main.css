@@ -1,32 +1,36 @@
+/* ==========================================================================
+   Main styles 
+   ========================================================================== */
 html,
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-#myCanvas {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
+.container-fluid{
+    width:90%;
 }
 
-.slide{
-    margin:15px;
+
+
+/* ==========================================================================
+   Nav bar
+   ========================================================================== */
+
+.navbar{
+    background-color: white;
+    border:none;
 }
 
-.slide-grid{
-    margin-top:55px;
-    display:block;
-    width:100%;
-    padding:5px;
-    border-radius:8px;
-    
-    text-align:center;
-    vertical-align: middle;
-    background-color:#494F5D;
+.navbar-link:hover{
+    text-decoration: none;
 }
+
+
+
+/* ==========================================================================
+   Index page 
+   ========================================================================== */
 
 .box-grid{
     margin:30px 0px;
@@ -68,12 +72,29 @@ body {
   transform: translateY(4px);
 }
 
-.container-fluid{
-    width:90%;
+#myCanvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
-.navbar{
-    background-color: white;
-    border:none;
+.slide{
+    margin:15px;
 }
+
+.slide-grid{
+    margin-top:55px;
+    display:block;
+    width:100%;
+    padding:5px;
+    border-radius:8px;
+    
+    text-align:center;
+    vertical-align: middle;
+    background-color:#494F5D;
+}
+
+
 
