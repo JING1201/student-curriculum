@@ -95,11 +95,17 @@ body {
     transform: translateY(3px);
 }
 
+.btn-primary:focus,
 .box:active {
   background-color: #60656f;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.box:focus {
+  color: #60656f;
+}
+
 
 #myCanvas {
   position: absolute;
