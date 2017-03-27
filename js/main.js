@@ -10,3 +10,9 @@ window.onload = function() {
     connectParticles: true
   });
 };
+
+$("#zero").modal('show').css({
+    'margin-left': function () { //Horizontal centering
+        return -($(this).width() / 3.5);
+    }
+});
