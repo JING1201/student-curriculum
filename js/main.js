@@ -11,8 +11,8 @@ window.onload = function() {
   });
 };
 
-$("#zero").modal('show').css({
-    'margin-left': function () { //Horizontal centering
+$("#zero").modal('hide').css({
+    'margin-left': function () { 
         return -($(this).width() / 3.5);
     }
 });
