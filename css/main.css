@@ -55,6 +55,10 @@ body {
     text-decoration: none;
 }
 
+.modal-open .modal, a:focus{
+    outline:none!important
+}
+
 
 /* ==========================================================================
    Index page 
