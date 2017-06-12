@@ -3,7 +3,7 @@
    ========================================================================== */
 html,
 body {
-    background:#2D2268;
+    background: white;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -69,11 +69,11 @@ body {
 
 .box-grid{
     margin:30px 0px;
-    background-color:#271F5F;
+    background-color:white;
 }
 
 .box-row{
-    margin:50px;
+    margin:20px;
 }
 
 .box{
@@ -126,10 +126,15 @@ body {
     min-width: 1000px;
 }
 
-.green, .green:active{ 
-    background-color: #3EE79B;
-}
 
+.blue, .blue:hover{ background-color: #4274E0;}
+.red, .red:hover{background-color: #D54A50;}
+.yellow, .yellow:hover{ background-color: #F49032;}
+.green, .green:hover{background-color: #3EE79B;}
+.pink, .pink:hover{ background-color: #D8205E;}
+.navy, .navy:hover{ background-color: #1E2E6E;}
+.orange, .orange:hover{ background-color: #FDC003;}
+.purple, .purple:hover{ background-color: #3C0978;}
 
 
 #myCanvas {
