@@ -66,7 +66,7 @@ body {
 
 .box-grid{
     margin:30px 0px;
-    background-color:#494F5D;
+    background-color:#4274E0;
 }
 
 .box-row{
@@ -75,10 +75,10 @@ body {
 
 .box{
     display:inline-block;
-    padding:40px 40px;
-    margin:15px 5px;
+    padding:5%;
+    margin:2% 1%;
     
-    width:23.5%;
+    width:30%;
     text-align:center;
     background-color:#6D7381;
     
