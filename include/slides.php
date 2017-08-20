@@ -1,7 +1,7 @@
 <?php 
 $count = 0;
 $a = [
-  "0. Intro to JS Fiddle." => "https://docs.google.com/presentation/d/170XzoPLJkZcYjhpHoz5lFDymTsjKa9-rFK0CPi0-wmI/embed?start=false&loop=false&delayms=3000",
+  "0. Intro to JS Fiddle" => "https://docs.google.com/presentation/d/170XzoPLJkZcYjhpHoz5lFDymTsjKa9-rFK0CPi0-wmI/embed?start=false&loop=false&delayms=3000",
   "1. Variables" => "https://docs.google.com/presentation/d/1yFbB36iDzILW6oibqwO8ZA44keUjIk40flAsR0c77P0/embed?start=false&loop=false&delayms=3000",
   "2. Conditionals" => "https://docs.google.com/presentation/d/1DXWCMmM1LPjFbFcQ_yi55zyUUUjQnZiIF23oaSndnPQ/embed?start=false&loop=false&delayms=3000",
   "3. While Loops" => "https://docs.google.com/presentation/d/1n-QKn0nCXn_O-yz7fe_0_Y9eda2XApKQpEs9Om3YKG4/embed?start=false&loop=false&delayms=3000",

@@ -12,16 +12,23 @@ body {
     width:90%;
 }
 
+img:hover{
+    filter:saturate(8);
+    transition:10s;
+    -webkit-user-drag: none;
+}
+
 /* ==========================================================================
    Nav bar
    ========================================================================== */
 
-
 .nav-container{
     text-align:center;
     width:100%;
-    padding:20px 0 0px 0;
-    /*background-color:#424958;*/
+    padding:50px 0 20px 0 ;
+    background-color:white;
+    
+    
    color:white;
     /*display: block; margin-left: auto;*/
 }
@@ -63,6 +70,11 @@ body {
   width: 90%;
 }
 
+.modal-content{
+    border-radius: 10px;
+    border:0;
+}
+
 /* ==========================================================================
    Index page 
    ========================================================================== */
@@ -93,7 +105,7 @@ body {
     outline: none;
     border: none;
     border-radius: 2px;
-    min-height:30%;
+    min-height:90%;
     width:100%;
 }
 
@@ -117,21 +129,21 @@ body {
 }
 
 .modal-backdrop {
-   background-color: white;
+   background-color:#1E2E6E;;
    opacity:1 !important;
 }
 
 
 
 
-.blue, .blue:hover{ background-color: #4274E0;}
-.red, .red:hover{background-color: #D54A50;}
-.yellow, .yellow:hover{ background-color: #F49032;}
-.green, .green:hover{background-color: #3EE79B;}
-.pink, .pink:hover{ background-color: #D8205E;}
-.navy, .navy:hover{ background-color: #1E2E6E;}
-.orange, .orange:hover{ background-color: #FDC003;}
-.purple, .purple:hover{ background-color: #3C0978;}
+.blue, .blue:hover{ background-color: #4274E0;box-shadow:0 6px 10px #2d51a3;}
+.red, .red:hover{background-color: #D54A50; box-shadow: 0 6px 10px #b2393e;}
+.yellow, .yellow:hover{ background-color: #F49032; box-shadow: 0 6px 10px #db8534;}
+.green, .green:hover{background-color: #3EE79B; box-shadow: 0 6px 10px #37cc89;}
+.pink, .pink:hover{ background-color: #D8205E; box-shadow: 0 6px 10px #af184b;}
+.navy, .navy:hover{ background-color: #1E2E6E; box-shadow: 0 6px 10px #182559;}
+.orange, .orange:hover{ background-color: #FDC003; box-shadow: 0 6px 10px #e0aa02;}
+.purple, .purple:hover{ background-color: #3C0978; box-shadow: 0 6px 10px #26044f;}
 
 .jsfiddle, .jsfiddle:hover{ background-color: #F3F5F6; color:#2795EE;}
 a:link, a:hover{text-decoration: none;}
