@@ -79,9 +79,6 @@ body {
     display:inline-block;
     padding:10%;
     margin:2% 1%;
-    
-
-    text-align:center;
     background-color:#6D7381;
     
     font-size:15px;
@@ -95,7 +92,7 @@ body {
     outline: none;
     border: none;
     border-radius: 2px;
-    height:30%;
+    min-height:30%;
     width:30%;
     /*box-shadow: 0 9px #999;*/
 }
@@ -131,6 +128,8 @@ body {
 .orange, .orange:hover{ background-color: #FDC003;}
 .purple, .purple:hover{ background-color: #3C0978;}
 
+.jsfiddle, .jsfiddle:hover{ background-color: #F3F5F6; color:#7F94A1;}
+a:link, a:hover{text-decoration: none;}
 
 #myCanvas {
   position: absolute;
