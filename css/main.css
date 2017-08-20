@@ -16,27 +16,18 @@ body {
    Nav bar
    ========================================================================== */
 
-.navbar{
-    display: inline-block;
-    float: none;
-    background:white;
-    border:none;
-}
-
-.navbar-link:hover{
-    text-decoration: none;
-}
 
 .nav-container{
     text-align:center;
     width:100%;
-    padding:20px;
-    background-color:#E4EBF0;
+    padding:20px 0 0px 0;
+    /*background-color:#E4EBF0;*/
+   color:black;
     /*display: block; margin-left: auto;*/
 }
 
 .navbar{
-    background:#E4EBF0;
+    background:white;
 }
 
 .js-fiddle{
