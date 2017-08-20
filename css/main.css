@@ -116,6 +116,11 @@ body {
   color: #60656f;
 }
 
+.modal-backdrop {
+   background-color: #252831;
+   opacity:1 !important;
+}
+
 
 
 
