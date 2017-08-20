@@ -12,8 +12,6 @@ body {
     width:90%;
 }
 
-
-
 /* ==========================================================================
    Nav bar
    ========================================================================== */
@@ -27,6 +25,18 @@ body {
 
 .navbar-link:hover{
     text-decoration: none;
+}
+
+.nav-container{
+    text-align:center;
+    width:100%;
+    padding:20px;
+    background-color:#E4EBF0;
+    /*display: block; margin-left: auto;*/
+}
+
+.navbar{
+    background:#E4EBF0;
 }
 
 .js-fiddle{
