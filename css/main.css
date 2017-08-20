@@ -5,7 +5,7 @@ html,
 body {
     background: white;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'consolas', sans-serif;
 }
 
 .container-fluid{
@@ -117,7 +117,7 @@ body {
 }
 
 .modal-backdrop {
-   background-color: #252831;
+   background-color: white;
    opacity:1 !important;
 }
 
@@ -133,7 +133,7 @@ body {
 .orange, .orange:hover{ background-color: #FDC003;}
 .purple, .purple:hover{ background-color: #3C0978;}
 
-.jsfiddle, .jsfiddle:hover{ background-color: #F3F5F6; color:#7F94A1;}
+.jsfiddle, .jsfiddle:hover{ background-color: #F3F5F6; color:#2795EE;}
 a:link, a:hover{text-decoration: none;}
 
 #myCanvas {
