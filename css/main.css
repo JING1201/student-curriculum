@@ -27,8 +27,6 @@ img:hover{
     width:100%;
     padding:50px 0 20px 0 ;
     background-color:white;
-    
-    
    color:white;
     /*display: block; margin-left: auto;*/
 }
@@ -129,11 +127,9 @@ img:hover{
 }
 
 .modal-backdrop {
-   background-color:#373646;
+   background-color:#434256;
    opacity:1 !important;
 }
-
-
 
 
 .blue, .blue:hover{ background-color: #4274E0;box-shadow:0 6px 10px #2d51a3;}
@@ -148,13 +144,6 @@ img:hover{
 .jsfiddle, .jsfiddle:hover{ background-color: #F3F5F6; color:#2795EE;}
 a:link, a:hover{text-decoration: none;}
 
-#myCanvas {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
 
 /* ==========================================================================
    Slide pages 
