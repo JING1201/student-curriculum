@@ -79,6 +79,11 @@ a {
     border:0;
 }
 
+.modal-backdrop {
+   background-color:#373646;
+   opacity:1 !important;
+}
+
 
 .modal-lg {
     min-width: 66% !important;
@@ -137,12 +142,6 @@ a {
 .box:focus {
   color: #60656f;
 }
-
-.modal-backdrop {
-   background-color:#373646;
-   opacity:1 !important;
-}
-
 
 .blue, .blue:hover{ background-color: #4274E0;box-shadow:0 6px 10px #2d51a3;}
 .red, .red:hover{background-color: #D54A50; box-shadow: 0 6px 10px #b2393e;}
