@@ -18,6 +18,13 @@ img:hover{
     -webkit-user-drag: none;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
 /* ==========================================================================
    Nav bar
    ========================================================================== */
@@ -27,44 +34,18 @@ img:hover{
     width:100%;
     padding:50px 0 20px 0 ;
     background-color:white;
-    
-    
    color:white;
     /*display: block; margin-left: auto;*/
+}
+
+.center{
+    text-align:center;
 }
 
 .navbar{
     background:white;
 }
 
-.js-fiddle{
-    font-size:12px;
-    color:white;
-    
-    background-color:#008BF3;
-    margin:0px;
-    padding:5px 30px;
-    
-    display:inline-block;
-    text-align:center;
-    
-    cursor: pointer;
-    
-    text-align: center;
-    text-decoration: none;
-    
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 3px #0065b3;
-}
-
-.js-fiddle:hover{
-    background-color:#007cdb;
-    transform: translateY(2px);
-    color:white;
-    text-decoration: none;
-}
 
 .modal.modal-wide .modal-dialog {
   width: 90%;
@@ -74,6 +55,17 @@ img:hover{
     border-radius: 10px;
     border:0;
 }
+
+.modal-backdrop {
+   background-color:#373646;
+   opacity:1 !important;
+}
+
+
+.modal-lg {
+    min-width: 66% !important;
+}
+
 
 /* ==========================================================================
    Index page 
@@ -92,8 +84,7 @@ img:hover{
     padding:90px;
     margin-bottom:20px;
     background-color:#6D7381;
-    
-    
+
     font-size:15px;
     
     color:white;
@@ -128,14 +119,6 @@ img:hover{
   color: #60656f;
 }
 
-.modal-backdrop {
-   background-color:#373646;
-   opacity:1 !important;
-}
-
-
-
-
 .blue, .blue:hover{ background-color: #4274E0;box-shadow:0 6px 10px #2d51a3;}
 .red, .red:hover{background-color: #D54A50; box-shadow: 0 6px 10px #b2393e;}
 .yellow, .yellow:hover{ background-color: #F49032; box-shadow: 0 6px 10px #db8534;}
@@ -144,17 +127,15 @@ img:hover{
 .navy, .navy:hover{ background-color: #1E2E6E; box-shadow: 0 6px 10px #182559;}
 .orange, .orange:hover{ background-color: #FDC003; box-shadow: 0 6px 10px #e0aa02;}
 .purple, .purple:hover{ background-color: #3C0978; box-shadow: 0 6px 10px #26044f;}
+.teal, .teal:hover{ background-color: #4FAC95; box-shadow: 0 6px 10px #357C6A;}
+.neon-blue, .neon-blue:hover{background-color: #3BACFB; box-shadow: 0 6px 10px #31a0ed}
 
-.jsfiddle, .jsfiddle:hover{ background-color: #F3F5F6; color:#2795EE;}
+
+.reference-link, .reference-link:hover{ background-color: #F3F5F6; color:#2795EE;}
+.reference-link-2, .reference-link-2:hover{ background-color: #F3F5F6; color:#4274E0;}
+.half{min-height:45%;}
 a:link, a:hover{text-decoration: none;}
 
-#myCanvas {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
 
 /* ==========================================================================
    Slide pages 
