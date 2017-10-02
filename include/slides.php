@@ -1,5 +1,7 @@
 <?php 
 $count = 0;
+
+//Note: Each index represent corresponding lesson
 $a = [
   "0. Intro to JS Fiddle" => "https://docs.google.com/presentation/d/170XzoPLJkZcYjhpHoz5lFDymTsjKa9-rFK0CPi0-wmI",
   "1. Variables" => "https://docs.google.com/presentation/d/1yFbB36iDzILW6oibqwO8ZA44keUjIk40flAsR0c77P0",
@@ -14,23 +16,24 @@ $a = [
 ];
 ?>
 
-<?php foreach($a as $key=>$value):?>
+
+<!--Create modal for each slide-->
+<?php foreach($a as $key=>$value):?> 
 <div class="modal fade" id="slide<?php echo $count; $count++;?>" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
+      
       <div class="modal-header">
-        <h5 class="modal-title"><a href="<?php echo $value;?>" target="_blank"><?php echo $key;?></a></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title"><a href="<?php echo $value;?>" target="_blank"><?php echo $key;?></a></h5> 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
+      
       <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="<?php echo $value;?>/embed?start=false&loop=false&delayms=3000" allowfullscreen></iframe>
           </div>
       </div>
-      <div class="modal-footer">
-      </div>
+      
     </div>
   </div>
 </div>
