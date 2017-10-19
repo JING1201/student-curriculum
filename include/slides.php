@@ -11,8 +11,8 @@ $a = [
   "5. User Input" => "https://docs.google.com/presentation/d/1GvTyOO8beomJO9bhowRGt_j4mcS6ST5CJzTy0LJaoJk",
   "6. Arrays" => "https://docs.google.com/presentation/d/1aYTknabRZQ_zC7WrRZGBuEcyWZnwWVn3U-woGdk95gU",
   "7. Functions" => "https://docs.google.com/presentation/d/1g7PdCyNzY0JmKIfQVLkhFpQ1VGIVswwydAXNqtZumuk",
-  "8. Switches" => "https://docs.google.com/presentation/d/e/2PACX-1vTiXatGuQ9cVnPvOJ_RP13p46SLpZa9yQfoqSqsqhoVLyjIrscHE1FBlX1TbxBrwy11hrKk2E4leFbY",
-  "9. 2D Arrays" => "https://docs.google.com/presentation/d/e/2PACX-1vSKR37HtgrdQMKrz-f1Yr03rSgqizXGsVPP1BYX740SLxr9Qu13i1oyH467PPhZDmMtkexFdI9bCQ-X",
+  "8. Switches" => "https://docs.google.com/presentation/d/1ayizAFAnyS0tBZi5JDBBrM9oJnl-gVvi5Qy2hpgZTEo",
+  "9. 2D Arrays" => "https://docs.google.com/presentation/d/1ycNQRjruP4q6I0UV2i906asQcaVUpX6UYdqe8vNF2uc",
 ];
 ?>
 
