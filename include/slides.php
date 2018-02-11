@@ -38,7 +38,7 @@ $a = [
             <iframe class="embed-responsive-item" src="<?php echo $c =(($key == 0)?"https://jsfiddle.net":"https://jsfiddle.net/uw8w5yc6");?>"></iframe>
             <br><br><br>
           </div>
-          <a href=<?php echo $c;?>><i>Source: JS Fiddle</i></a>
+          <i><a href=<?php echo $c;?> target="_blank">Source: JS Fiddle</a></i>
       </div>
       
     </div>
