@@ -29,11 +29,13 @@ $a = [
       </div>
       
       <div class="modal-body">
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="embed-responsive embed-responsive-16by9">  <!--Google Slides-->
             <iframe class="embed-responsive-item" src="<?php echo $value;?>/embed?start=false&loop=false&delayms=3000" allowfullscreen></iframe>
           </div>
+          <div class="jsfiddle-iframe embed-responsive embed-responsive-16by9"> <!--JSFiddle-->
+            <iframe class="embed-responsive-item" src="https://jsfiddle.net/" allowfullscreen></iframe>
+          </div>
       </div>
-      
     </div>
   </div>
 </div>
