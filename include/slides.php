@@ -14,11 +14,15 @@ $a = [
   "8. Switches" => "https://docs.google.com/presentation/d/1ayizAFAnyS0tBZi5JDBBrM9oJnl-gVvi5Qy2hpgZTEo",
   "9. 2D Arrays" => "https://docs.google.com/presentation/d/1ycNQRjruP4q6I0UV2i906asQcaVUpX6UYdqe8vNF2uc",
 ];
+
+
 ?>
+
 
 
 <!--Create modal for each slide-->
 <?php foreach($a as $key=>$value):?> 
+
 <div class="modal fade" id="slide<?php echo $count; $count++;?>" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -29,14 +33,17 @@ $a = [
       </div>
       
       <div class="modal-body">
-          <div class="embed-responsive embed-responsive-16by9">  <!--Google Slides-->
+          <div class="embed-responsive embed-responsive-16by9">  
+            <!--Google Slides--> 
             <iframe class="embed-responsive-item" src="<?php echo $value;?>/embed?start=false&loop=false&delayms=3000" allowfullscreen></iframe>
           </div>
-          <div class="jsfiddle-iframe embed-responsive embed-responsive-16by9"> <!--JSFiddle-->
-            <iframe class="embed-responsive-item" src="https://jsfiddle.net/" allowfullscreen></iframe>
+          <div class="jsfiddle-iframe embed-responsive embed-responsive-16by9"> 
+            <!--JSFiddle (Note: The JSFiddle for lesson 1 is blank, whereas remaining lessons contain a template.) -->
+            <iframe class="embed-responsive-item" src="<?php echo (($a == 1) ? "https://jsfiddle.net" : "https://jsfiddle.net/uw8w5yc6");?>"></iframe>
           </div>
       </div>
+      
     </div>
   </div>
 </div>
-<?php endforeach; ?>
+<?php endforeach;?>
