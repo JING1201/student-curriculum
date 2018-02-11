@@ -1,6 +1,5 @@
 <?php 
 $count = 0;
-
 //Note: Each index represent corresponding lesson
 $a = [
   "0. Intro to JS Fiddle" => "https://docs.google.com/presentation/d/170XzoPLJkZcYjhpHoz5lFDymTsjKa9-rFK0CPi0-wmI",
@@ -14,10 +13,7 @@ $a = [
   "8. Switches" => "https://docs.google.com/presentation/d/1ayizAFAnyS0tBZi5JDBBrM9oJnl-gVvi5Qy2hpgZTEo",
   "9. 2D Arrays" => "https://docs.google.com/presentation/d/1ycNQRjruP4q6I0UV2i906asQcaVUpX6UYdqe8vNF2uc",
 ];
-
-
 ?>
-
 
 
 <!--Create modal for each slide-->
