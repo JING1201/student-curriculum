@@ -1,6 +1,5 @@
 <?php 
 $count = 0;
-
 //Note: Each index represent corresponding lesson
 $a = [
   "0. Intro to JS Fiddle" => "https://docs.google.com/presentation/d/170XzoPLJkZcYjhpHoz5lFDymTsjKa9-rFK0CPi0-wmI",
@@ -11,14 +10,15 @@ $a = [
   "5. User Input" => "https://docs.google.com/presentation/d/1GvTyOO8beomJO9bhowRGt_j4mcS6ST5CJzTy0LJaoJk",
   "6. Arrays" => "https://docs.google.com/presentation/d/1aYTknabRZQ_zC7WrRZGBuEcyWZnwWVn3U-woGdk95gU",
   "7. Functions" => "https://docs.google.com/presentation/d/1g7PdCyNzY0JmKIfQVLkhFpQ1VGIVswwydAXNqtZumuk",
-  "8. Switches" => "https://docs.google.com/presentation/d/e/2PACX-1vTiXatGuQ9cVnPvOJ_RP13p46SLpZa9yQfoqSqsqhoVLyjIrscHE1FBlX1TbxBrwy11hrKk2E4leFbY",
-  "9. 2D Arrays" => "https://docs.google.com/presentation/d/e/2PACX-1vSKR37HtgrdQMKrz-f1Yr03rSgqizXGsVPP1BYX740SLxr9Qu13i1oyH467PPhZDmMtkexFdI9bCQ-X",
+  "8. Switches" => "https://docs.google.com/presentation/d/1ayizAFAnyS0tBZi5JDBBrM9oJnl-gVvi5Qy2hpgZTEo",
+  "9. 2D Arrays" => "https://docs.google.com/presentation/d/1ycNQRjruP4q6I0UV2i906asQcaVUpX6UYdqe8vNF2uc",
 ];
 ?>
 
 
 <!--Create modal for each slide-->
 <?php foreach($a as $key=>$value):?> 
+
 <div class="modal fade" id="slide<?php echo $count; $count++;?>" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -29,12 +29,19 @@ $a = [
       </div>
       
       <div class="modal-body">
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="embed-responsive embed-responsive-16by9">  
+            <!--Google Slides--> 
             <iframe class="embed-responsive-item" src="<?php echo $value;?>/embed?start=false&loop=false&delayms=3000" allowfullscreen></iframe>
           </div>
+          <div class="jsfiddle-iframe embed-responsive embed-responsive-16by9"> 
+            <!--JSFiddle (Note: The JSFiddle for lesson 1 is blank, whereas remaining lessons contain a template.) -->
+            <iframe class="embed-responsive-item" src="<?php echo $c =(($key == 0)?"https://jsfiddle.net":"https://jsfiddle.net/uw8w5yc6");?>"></iframe>
+            <br><br><br>
+          </div>
+          <i><a href=<?php echo $c;?> target="_blank">Source: JS Fiddle</a></i>
       </div>
       
     </div>
   </div>
 </div>
-<?php endforeach; ?>
+<?php endforeach;?>
